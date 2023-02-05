@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "build":"docgen build -i docs.json -o index.html"
+    "build":"node app.js"
   },
   "author": "",
   "license": "ISC",

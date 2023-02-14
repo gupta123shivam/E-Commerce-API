@@ -33,12 +33,12 @@ app.use(helmet());
 app.use(xss_clean());
 app.use(cors());
 
-// const limiter = rateLimit({
-//   windowMs: 24 * 60 * 60 * 100,
-//   rate: 100,
-// });
-// app.set("trust proxy", 1);
-// app.use(limiter);
+const limiter = rateLimit({
+  windowMs: 24 * 60 * 60 * 100,
+  rate: 100,
+});
+app.set("trust proxy", 1);
+app.use(limiter);
 
 // ===============================================================
 // Importing Routes

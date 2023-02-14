@@ -1,7 +1,9 @@
 {
-  "name": "06-jobs-api",
+  "name": "e-commerce-api",
   "version": "1.0.0",
   "description": "",
+  "author":"Shivam Gupta",
+  "guthub":"https://github.com/gupta123shivam",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
